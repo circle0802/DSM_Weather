@@ -47,13 +47,8 @@ class MainViewController: UIViewController {
         }
         
         getCurrentDateTime()
-        attribute()
         add()
         layout()
-    }
-    
-    private func attribute() {
-        view.backgroundColor = .systemGreen
     }
 
     private func add() {
