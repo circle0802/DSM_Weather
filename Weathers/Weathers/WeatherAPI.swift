@@ -32,8 +32,6 @@ extension WeatherAPI: TargetType {
     var headers: [String : String]? {
         return nil
     }
-    
-    
 }
 
 
