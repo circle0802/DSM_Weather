@@ -3,7 +3,7 @@ import SnapKit
 import Then
 import Moya
 
-class ViewController: UIViewController {
+class MainViewController: UIViewController {
     
     let provider = MoyaProvider<WeatherAPI>(plugins: [MoyaLoggingPlugin()])
     
@@ -91,6 +91,5 @@ class ViewController: UIViewController {
         let str = formatter.string(from: Date())
         dateLabel.text = "\(str)"
     }
-
 }
 
