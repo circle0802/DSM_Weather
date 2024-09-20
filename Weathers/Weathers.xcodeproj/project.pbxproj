@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		881402C82C9D565B00CFE2CF /* WeatherInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 881402C72C9D565B00CFE2CF /* WeatherInfo.plist */; };
+		881402CA2C9D56F100CFE2CF /* Weathers++Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881402C92C9D56F100CFE2CF /* Weathers++Bundle.swift */; };
 		884130AB2C8D832A009BCF49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884130AA2C8D832A009BCF49 /* AppDelegate.swift */; };
 		884130AD2C8D832A009BCF49 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884130AC2C8D832A009BCF49 /* SceneDelegate.swift */; };
 		884130AF2C8D832A009BCF49 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884130AE2C8D832A009BCF49 /* MainViewController.swift */; };
@@ -22,6 +24,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		881402C72C9D565B00CFE2CF /* WeatherInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = WeatherInfo.plist; sourceTree = "<group>"; };
+		881402C92C9D56F100CFE2CF /* Weathers++Bundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Weathers++Bundle.swift"; sourceTree = "<group>"; };
 		884130A72C8D832A009BCF49 /* Weathers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weathers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		884130AA2C8D832A009BCF49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		884130AC2C8D832A009BCF49 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -74,9 +78,11 @@
 				884130B32C8D832C009BCF49 /* Assets.xcassets */,
 				884130B52C8D832C009BCF49 /* LaunchScreen.storyboard */,
 				884130B82C8D832C009BCF49 /* Info.plist */,
+				881402C72C9D565B00CFE2CF /* WeatherInfo.plist */,
 				884130BE2C8D8421009BCF49 /* WeatherAPI.swift */,
 				884130C22C8D8433009BCF49 /* Response.swift */,
 				884130CF2C8DBC1A009BCF49 /* MoyaPlugin.swift */,
+				881402C92C9D56F100CFE2CF /* Weathers++Bundle.swift */,
 			);
 			path = Weathers;
 			sourceTree = "<group>";
@@ -152,6 +158,7 @@
 			files = (
 				884130B42C8D832C009BCF49 /* Assets.xcassets in Resources */,
 				884130B72C8D832C009BCF49 /* Base in Resources */,
+				881402C82C9D565B00CFE2CF /* WeatherInfo.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,6 +170,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				884130AF2C8D832A009BCF49 /* MainViewController.swift in Sources */,
+				881402CA2C9D56F100CFE2CF /* Weathers++Bundle.swift in Sources */,
 				884130BF2C8D8421009BCF49 /* WeatherAPI.swift in Sources */,
 				884130D02C8DBC1A009BCF49 /* MoyaPlugin.swift in Sources */,
 				884130AB2C8D832A009BCF49 /* AppDelegate.swift in Sources */,
